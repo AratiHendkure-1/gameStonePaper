@@ -2,19 +2,23 @@
     margin: 0;
     padding: 0;
     text-align: center;
+    flex-wrap: wrap;
+    height: auto;
+    width: auto;
+    size-adjust: initial;
 }
 
 h1{
     background-color: #081b31;
     color: #fff;
-    height: 5rem;
-    line-height: 5rem;
+    height: 5vw;
+    line-height: 5vw;
     
 }
 
 .choice{
-    height: 165px;
-    width: 165px;
+    height: 8vw;
+    width: 8vw;
     border-radius: 50%;
     display: flex;
     justify-content: center;
@@ -27,8 +31,8 @@ h1{
 }
 
 img{
-    height: 150px;
-    width: 150px;
+    height: 7vw;
+    width: 7vw;
     object-fit: cover;
     border-radius: 50%;
 }
@@ -47,7 +51,7 @@ img{
     align-items: center;
     gap: 5rem;
     margin-top: 3rem;
-    font-size: 2rem;
+    font-size: 2vw;
 }
 
 .msg-container{
@@ -58,8 +62,8 @@ img{
 #msg{
     background-color: #081b31;
     color: #fff;
-    font-size: 2rem;
+    font-size: 2vw;
     display: inline;
-    padding: 1rem;
-    border-radius: 1rem;
+    padding: 1vw;
+    border-radius: 1vw;
 }
